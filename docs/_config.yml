@@ -1,0 +1,4 @@
+theme: jekyll-theme-minimal
+permalink: /posts/:year/:month/:day/:title
+baseurl: https://hyper0ff.github.io/beta
+
