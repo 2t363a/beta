@@ -6,9 +6,9 @@ To find possible non-linear correlation we might use the well-known Hessian matr
 
 In sufficient vicinity of **x**:
 
-    f(**x** + d**x**) = f(**x**) + (NABLA f) d**x** + 1/2(d**x**)^T H (d**x**) + ...
+f(**x** + d**x**) = f(**x**) + (NABLA f) d**x** + 1/2(d**x**)^T H (d**x**) + ...
 
-    Where 
+Where 
 
 ```
     NABLA f = GRAD(F)
