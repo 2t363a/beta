@@ -8,7 +8,7 @@ In sufficient vicinity of **x**:
 
 f(**x** + d**x**) = f(**x**) + (NABLA f) d**x** + 1/2(d**x**)^T H (d**x**) + ...
 
-Where 
+gWhere 
 
 ```
     NABLA f = GRAD(F)
@@ -37,6 +37,7 @@ and create a series of tests, consisting of:
 3. Calculate the components of H(i, j) using formulas of numerical differentiation:
 
 d2f/dx_i^2 = (f(*xc* + dx_i *e_i*) - 2 f(xc) + f(*xc* - dx_i *e_i*)) / dx_i / dx_i
+
 d2f/dx_i dx_j = (f(*xc* + dx_i *e_i* + dx_j *e_j*) 
                  - f(*xc* - dx_i *e_i* + dx_j *e_j*) 
                  - f(*xc* + dx_i *e_i* - dx_j *e_j*)
