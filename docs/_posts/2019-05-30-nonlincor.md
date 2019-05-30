@@ -38,13 +38,13 @@ and create a series of tests, consisting of:
 
 3. Calculate the components of H(i, j) using formulas of numerical differentiation:
 
-d2f/dx_i^2 = (f(*xc* + dx_i *e_i*) - 2 f(xc) + f(*xc* - dx_i *e_i*)) / dx_i / dx_i
+d2f/dx_i^2 = (f(**xc** + dx_i **e_i**) - 2 f(xc) + f(**xc** - dx_i **e_i**)) / dx_i / dx_i
 
-d2f/dx_i dx_j = (f(*xc* + dx_i *e_i* + dx_j *e_j*) 
-                 - f(*xc* - dx_i *e_i* + dx_j *e_j*) 
-                 - f(*xc* + dx_i *e_i* - dx_j *e_j*)
-                 + f(*xc* - dx_i *e_i* - dx_j *e_j*)) 
-                 / 4 / dx_i / dx_j
+d2f/dx_i dx_j = (f(**xc** + dx_i **e_i** + dx_j **e_j**) 
+                 - f(**xc** - dx_i **e_i** + dx_j **e_j**) 
+                 - f(**xc** + dx_i **e_i** - dx_j **e_j**)
+                 + f(**xc** - dx_i **e_i** - dx_j **e_j**)
+                ) / 4 / dx_i / dx_j
 
 *e_i* - is unit vector in i-th direction
 *e_j* - is unit vector in j-th direction
