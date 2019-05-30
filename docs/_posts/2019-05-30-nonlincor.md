@@ -29,14 +29,14 @@ condition.
 
 ## Approximation of H(i, j)
 
-It might be advisable to choose **h** = { h_1, h_2,..., h_n }
-and create a series of tests, consisting of:
+It might be advisable to choose **h** = { h_1, h_2,..., h_n }.
+And create a series of tests, consisting of:
 
 1. Choose a **xc** point in the domain of f.
 
 2. Perturb **xc** point for vector **dx**, which components are independent random variables with NORMAL(0, h_i).
 
-3. Calculate the components of H(i, j) using formulas of numerical differentiation:
+3. Calculate the components of *H(i, j)* using formulas of numerical differentiation:
 
 d2f/dx_i^2 = (f(**xc** + dx_i **e_i**) - 2 f(xc) + f(**xc** - dx_i **e_i**)) / dx_i / dx_i
 
@@ -46,10 +46,10 @@ d2f/dx_i dx_j = (f(**xc** + dx_i **e_i** + dx_j **e_j**)
                  + f(**xc** - dx_i **e_i** - dx_j **e_j**)
                 ) / 4 / dx_i / dx_j
 
-*e_i* - is unit vector in i-th direction
-*e_j* - is unit vector in j-th direction
+**e_i** - unit vector in *i*-th direction
+**e_j** - unit vector in *j*-th direction
 
-4. Averaging through H(i, j) values in different tests, one obtains an approximation of H(i, j) around point **xc**.
+4. Averaging through *H(i, j)* values in different tests, one obtains an approximation of *H(i, j)* around point **xc**.
 
 5. For 
 
