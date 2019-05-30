@@ -46,8 +46,9 @@ d2f/dx_i dx_j = (f(**xc** + dx_i **e_i** + dx_j **e_j**)
                  + f(**xc** - dx_i **e_i** - dx_j **e_j**)
                 ) / 4 / dx_i / dx_j
 
-**e_i** - unit vector in *i*-th direction
-**e_j** - unit vector in *j*-th direction
+* **e_i** - unit vector in *i*-th direction
+
+* **e_j** - unit vector in *j*-th direction
 
 4. Averaging through *H(i, j)* values in different tests, one obtains an approximation of *H(i, j)* around point **xc**.
 
