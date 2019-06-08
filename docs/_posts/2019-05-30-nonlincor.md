@@ -8,7 +8,7 @@ In sufficient vicinity of **x**:
 
 f(**x** + d**x**) = f(**x**) + (NABLA f) d**x** + 1/2(d**x**)^T H (d**x**) + ...
 
-gWhere 
+Where 
 
 ```
     NABLA f = GRAD(F)
@@ -18,6 +18,12 @@ gWhere
                d^2 f 
     H(i, j) = ---------
                dx_i x_j
+```
+
+```latex
+$$
+H(i, j) = \frac{d^2 f}{dx_i x_j}
+$$
 ```
 
 So when |H(i, j)| > EPS if i != j *suggests* correlation[1]
